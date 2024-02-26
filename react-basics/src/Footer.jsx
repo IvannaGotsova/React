@@ -3,7 +3,8 @@ function Footer() {
  
     return (
         <footer>
-        <h2>Examples of React</h2>
+            <hr />
+            <h2>Examples of React</h2>
         </footer>
     )
 }

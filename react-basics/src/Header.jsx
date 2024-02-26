@@ -11,6 +11,7 @@ function Header() {
             <li><a href="href">Hard</a></li>
             <li><a href="href">Very Hard</a></li>
         </ul>
+        <hr />
         </header>
     )
 }
