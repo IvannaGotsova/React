@@ -3,6 +3,7 @@ function Easy() {
  
     return (
         <body>
+            <h2>EASY</h2>
             <hr />
             <ol>
                 <li> 
