@@ -1,37 +1,30 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import VeryEasy from "./VeryEasy"
+import Easy from "./Easy"
+import Middle from "./Middle"
+import Hard from "./Hard"
+import VeryHard from "./VeryHard"
 function Body() {
  
     return (
-        <body>
-            <hr />
-            <ol>
-                <li> 
-                    <h3>First Example</h3>               
-                    <h5>This is first example</h5>
-                    <p>Summary of first example...................................................................................................</p>
-                </li>
-                <li>
-                    <h3>Second Example</h3>
-                    <h5>This is second example</h5>
-                    <p>Summary of second example...................................................................................................</p>
-                </li>
-                <li>
-                    <h3>Third Example</h3>
-                    <h5>This is third example</h5>
-                    <p>Summary of third example...................................................................................................</p>
-                </li>
-                <li>
-                    <h3>Fourth Example</h3>
-                    <h5>This is fourth example</h5>
-                    <p>Summary of fourth example...................................................................................................</p>
-                </li>
-                <li>
-                    <h3>Fifth Example</h3>
-                    <h5>This is fifth example</h5>
-                    <p>Summary of fifth example...................................................................................................</p>
-                </li>
-            </ol>
-            <hr />
-        </body>
+      <div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/veryeasy" element={<VeryEasy />} /> 
+            <Route path="/easy" element={<Easy />} />
+            <Route path="/middle" element={<Middle />} />
+            <Route path="/hard" element={<Hard />} />
+            <Route path="/veryhard" element={<VeryHard />} />
+          </Routes>
+        </BrowserRouter>
+        <ul>
+            <li><a href="VeryEasy">Very Easy</a></li>
+            <li><a href="Easy">Easy</a></li>
+            <li><a href="Middle">Middle</a></li>
+            <li><a href="Hard">Hard</a></li>
+            <li><a href="VeryHard">Very Hard</a></li>
+        </ul>
+      </div>
     )
 }
 
