@@ -4,6 +4,7 @@ import Easy from "./Easy"
 import Middle from "./Middle"
 import Hard from "./Hard"
 import VeryHard from "./VeryHard"
+
 function Body() {
  
     return (
