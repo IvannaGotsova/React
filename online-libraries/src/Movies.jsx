@@ -1,4 +1,4 @@
-
+import CardMovies from "./CardMovies";
 
 function Movies() {
 
@@ -6,6 +6,35 @@ function Movies() {
       <>
        <h3>All your Movies</h3>
        <b>Your movies are here</b>
+
+       <CardMovies 
+       title = "Movie Number One"
+       img = "./Picture.jpg"
+       author = "Movie One Author"
+       description = "Description about Movie Number One ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Two"
+       img = "./Picture.jpg"
+       author = "Movie Two Author"
+       description = "Description about Movie Number Two ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Three"
+       img = "./Picture.jpg"
+       author = "Movie Three Author"
+       description = "Description about Movie Number Three ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Four"
+       img = "./Picture.jpg"
+       author = "Movie Four Author"
+       description = "Description about Movie Number Four ..."
+       />
+
       </>
     )
   }
