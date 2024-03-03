@@ -118,3 +118,12 @@ button:focus-visible {
   color: black;
   margin: 0;
 }
+
+.Game .Game-title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
+
