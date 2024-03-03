@@ -127,3 +127,11 @@ button:focus-visible {
   margin: 0;
 }
 
+.Movie .Movie-title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
+
