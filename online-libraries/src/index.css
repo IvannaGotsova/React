@@ -74,7 +74,7 @@ button:focus-visible {
   padding: 15px;
   margin: 15px;
   text-align: center;
-  max-width: 300px;
+  max-width: 250px;
   display: inline-block;
 }
 
@@ -85,7 +85,7 @@ button:focus-visible {
   padding: 15px;
   margin: 15px;
   text-align: center;
-  max-width: 300px;
+  max-width: 250px;
   display: inline-block;
 }
 
@@ -96,7 +96,7 @@ button:focus-visible {
   padding: 15px;
   margin: 15px;
   text-align: center;
-  max-width: 300px;
+  max-width: 250px;
   display: inline-block;
 }
 
@@ -107,7 +107,7 @@ button:focus-visible {
   padding: 15px;
   margin: 15px;
   text-align: center;
-  max-width: 300px;
+  max-width: 250px;
   display: inline-block;
 }
 
@@ -198,3 +198,4 @@ button:focus-visible {
   color: black;
   margin: 0;
 }
+
