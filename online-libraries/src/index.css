@@ -182,3 +182,11 @@ button:focus-visible {
   color: black;
   margin: 0;
 }
+
+.Movie .Movie-author {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
