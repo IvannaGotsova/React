@@ -199,3 +199,10 @@ button:focus-visible {
   margin: 0;
 }
 
+.Book .Book-description {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: smaller;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
