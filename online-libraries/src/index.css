@@ -142,3 +142,9 @@ button:focus-visible {
   color: black;
   margin: 0;
 }
+
+.Book .Book-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10%;
+}
