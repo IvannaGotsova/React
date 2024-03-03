@@ -245,3 +245,8 @@ button:focus-visible {
   background-color: blue;
   color: bisque;
 }
+
+.Song .Song-button {
+  background-color: blue;
+  color: bisque;
+}
