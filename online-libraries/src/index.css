@@ -240,3 +240,8 @@ button:focus-visible {
   background-color: blue;
   color: bisque;
 }
+
+.Movie .Movie-button {
+  background-color: blue;
+  color: bisque;
+}
