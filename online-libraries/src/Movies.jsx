@@ -34,6 +34,90 @@ function Movies() {
        author = "Movie Four Author"
        description = "Description about Movie Number Four ..."
        />
+       
+       <CardMovies 
+       title = "Movie Number One"
+       img = "./Picture.jpg"
+       author = "Movie One Author"
+       description = "Description about Movie Number One ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Two"
+       img = "./Picture.jpg"
+       author = "Movie Two Author"
+       description = "Description about Movie Number Two ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Three"
+       img = "./Picture.jpg"
+       author = "Movie Three Author"
+       description = "Description about Movie Number Three ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Four"
+       img = "./Picture.jpg"
+       author = "Movie Four Author"
+       description = "Description about Movie Number Four ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number One"
+       img = "./Picture.jpg"
+       author = "Movie One Author"
+       description = "Description about Movie Number One ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Two"
+       img = "./Picture.jpg"
+       author = "Movie Two Author"
+       description = "Description about Movie Number Two ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Three"
+       img = "./Picture.jpg"
+       author = "Movie Three Author"
+       description = "Description about Movie Number Three ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Four"
+       img = "./Picture.jpg"
+       author = "Movie Four Author"
+       description = "Description about Movie Number Four ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number One"
+       img = "./Picture.jpg"
+       author = "Movie One Author"
+       description = "Description about Movie Number One ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Two"
+       img = "./Picture.jpg"
+       author = "Movie Two Author"
+       description = "Description about Movie Number Two ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Three"
+       img = "./Picture.jpg"
+       author = "Movie Three Author"
+       description = "Description about Movie Number Three ..."
+       />
+
+       <CardMovies 
+       title = "Movie Number Four"
+       img = "./Picture.jpg"
+       author = "Movie Four Author"
+       description = "Description about Movie Number Four ..."
+       />
 
       </>
     )
