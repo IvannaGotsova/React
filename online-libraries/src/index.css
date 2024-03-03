@@ -148,3 +148,9 @@ button:focus-visible {
   height: auto;
   border-radius: 10%;
 }
+
+.Game .Game-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10%;
+}
