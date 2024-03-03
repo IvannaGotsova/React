@@ -235,3 +235,8 @@ button:focus-visible {
   background-color: blue;
   color: bisque;
 }
+
+.Game .Game-button {
+  background-color: blue;
+  color: bisque;
+}
