@@ -166,3 +166,11 @@ button:focus-visible {
   height: auto;
   border-radius: 10%;
 }
+
+.Book .Book-author {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
