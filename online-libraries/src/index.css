@@ -175,7 +175,7 @@ button:focus-visible {
   margin: 0;
 }
 
-.Game .Game-author {
+.Game .Game-players {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
   font-style: italic;
@@ -183,7 +183,7 @@ button:focus-visible {
   margin: 0;
 }
 
-.Movie .Movie-author {
+.Movie .Movie-actors {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
   font-style: italic;
@@ -191,7 +191,7 @@ button:focus-visible {
   margin: 0;
 }
 
-.Song .Song-author {
+.Song .Song-singer {
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
   font-style: italic;
