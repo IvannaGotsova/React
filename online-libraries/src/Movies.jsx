@@ -5,7 +5,7 @@ function Movies() {
     return (
       <>
        <h3>All your Movies</h3>
-       <b>Your movies are here</b>
+       <h5>Your movies are here</h5>
 
        <CardMovies 
        title = "Movie Number One"
