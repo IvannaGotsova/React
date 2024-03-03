@@ -231,3 +231,7 @@ button:focus-visible {
   margin: 0;
 }
 
+.Book .Book-button {
+  background-color: blue;
+  color: bisque;
+}
