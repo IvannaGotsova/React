@@ -222,3 +222,11 @@ button:focus-visible {
   color: black;
   margin: 0;
 }
+
+.Song .Song-description {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: smaller;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
