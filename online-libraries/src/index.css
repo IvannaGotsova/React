@@ -110,3 +110,11 @@ button:focus-visible {
   max-width: 300px;
   display: inline-block;
 }
+
+.Book .Book-title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-style: italic;
+  color: black;
+  margin: 0;
+}
