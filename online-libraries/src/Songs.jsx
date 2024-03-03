@@ -5,7 +5,7 @@ function Songs() {
     return (
       <>
        <h3>All your Songs</h3>
-       <b>Your songs are here</b>
+       <h5>Your songs are here</h5>
 
        <CardSongs 
        title = "Song Number One"
