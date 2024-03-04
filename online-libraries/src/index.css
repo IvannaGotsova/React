@@ -223,7 +223,7 @@ button:focus-visible {
   margin: 0;
 }
 
-.Song .Song-description {
+.Song .Song-text {
   font-family: 'Courier New', Courier, monospace;
   font-size: smaller;
   font-style: italic;
@@ -246,7 +246,7 @@ button:focus-visible {
   color: bisque;
 }
 
-.Song .Song-button {
+.Song .-button {
   background-color: blue;
   color: bisque;
 }
