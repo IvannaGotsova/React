@@ -10,6 +10,7 @@ function Body() {
     <>
         <BrowserRouter>
           <Routes>
+            <Route path="/" /> 
             <Route path="/books" element={<Books />} /> 
             <Route path="/games" element={<Games />} />
             <Route path="/movies" element={<Movies />} />
@@ -17,6 +18,8 @@ function Body() {
           </Routes>
         </BrowserRouter>
      <ul>
+        <li><a href="Home">Home</a></li>
+        <b>Start Here</b>
         <li><a href="Books">Books</a></li>
         <b>Your books are here</b>
         <li><a href="Games">Games</a></li>
