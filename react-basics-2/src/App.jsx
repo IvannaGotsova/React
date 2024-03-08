@@ -16,6 +16,7 @@ function App() {
     <>
         <Button />
         {isTrueOrFalse ? <Yes /> : <No />}
+        <Clothes />
     </>
   )
 }
