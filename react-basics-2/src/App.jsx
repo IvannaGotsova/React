@@ -6,6 +6,7 @@ import Button from './Button'
 import Yes from './Yes'
 import No from './No'
 import Form from './Form'
+import Select from './Select'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Button />
         {isTrueOrFalse ? <Yes /> : <No />}
         <Form />
+        <Select />
     </>
   )
 }
