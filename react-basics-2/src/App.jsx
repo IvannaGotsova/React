@@ -5,6 +5,7 @@ import './App.css'
 import Button from './Button'
 import Yes from './Yes'
 import No from './No'
+import Clothes from './Clothes'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
         <Button />
         {isTrueOrFalse ? <Yes /> : <No />}
+        <Clothes />
     </>
   )
 }
