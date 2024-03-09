@@ -17,6 +17,7 @@ function Form() {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
+          <p>{name}</p>
         </label>
         <input type="submit" />      
       </form>
