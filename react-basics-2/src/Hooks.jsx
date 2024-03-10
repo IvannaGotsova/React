@@ -4,6 +4,7 @@ function Hooks() {
 
    const [number, setNumber] = useState("one");
    const [option, setOption] = useState("yes");
+   const [counter, setCounter] = useState(0);
 
   return (
     <>
