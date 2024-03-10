@@ -7,6 +7,7 @@ import Yes from './Yes'
 import No from './No'
 import Form from './Form'
 import Select from './Select'
+import Hooks from './Hooks'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         {isTrueOrFalse ? <Yes /> : <No />}
         <Form />
         <Select />
+        <Hooks />
     </>
   )
 }
