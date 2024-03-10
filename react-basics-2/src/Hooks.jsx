@@ -1,0 +1,54 @@
+import { useState } from "react";
+
+function Hooks() {
+
+   const [number, setNumber] = useState("one");
+
+  return (
+    <>
+      <h3>Choose number:</h3>
+      <button
+        type="button"
+        onClick={() => setNumber("one")}
+      >One</button>
+      <button
+        type="button"
+        onClick={() => setNumber("two")}
+      >Two</button>
+      <button
+        type="button"
+        onClick={() => setNumber("three")}
+      >Three</button>
+      <button
+        type="button"
+        onClick={() => setNumber("four")}
+      >Four</button>
+      <button
+        type="button"
+        onClick={() => setNumber("five")}
+      >Five</button>
+      <button
+        type="button"
+        onClick={() => setNumber("six")}
+      >Six</button>
+      <button
+        type="button"
+        onClick={() => setNumber("seven")}
+      >Seven</button>
+      <button
+        type="button"
+        onClick={() => setNumber("eight")}
+      >Eight</button>
+      <button
+        type="button"
+        onClick={() => setNumber("nine")}
+      >Nine</button>
+      <button
+        type="button"
+        onClick={() => setNumber("ten")}
+      >Ten</button>
+    </>
+  );
+}
+
+export default Hooks
