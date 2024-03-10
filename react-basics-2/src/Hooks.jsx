@@ -76,6 +76,7 @@ function Hooks() {
         onClick={() => setWord("cab")}
       >cab</button>
       <h3>The word is: {word}</h3>
+      <h2>The number you choose is {number}, the option you choose is {option}, the word you choose is {word}!</h2>
     </>
   );
 }
