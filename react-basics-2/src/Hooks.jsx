@@ -5,6 +5,7 @@ function Hooks() {
    const [number, setNumber] = useState("");
    const [option, setOption] = useState("");
    const [word, setWord] = useState("");
+   let sentence = `The number you choose is ${number}, the option you choose is ${option}, the word you choose is ${word}!`;
 
   return (
     <>
@@ -76,7 +77,7 @@ function Hooks() {
         onClick={() => setWord("cab")}
       >cab</button>
       <h3>The word is: {word}</h3>
-      <h2>The number you choose is {number}, the option you choose is {option}, the word you choose is {word}!</h2>
+      <h2>{sentence}</h2>
     </>
   );
 }
