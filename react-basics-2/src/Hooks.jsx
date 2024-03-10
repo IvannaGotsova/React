@@ -3,6 +3,7 @@ import { useState } from "react";
 function Hooks() {
 
    const [number, setNumber] = useState("one");
+   const [option, setOption] = useState("yes");
 
   return (
     <>
@@ -51,11 +52,11 @@ function Hooks() {
       <h3>Choose option:</h3>
       <button
         type="button"
-        onClick={() => setNumber("yes")}
+        onClick={() => setOption("yes")}
       >Yes</button>
       <button
         type="button"
-        onClick={() => setNumber("no")}
+        onClick={() => setOption("no")}
       >No</button>
     </>
   );
