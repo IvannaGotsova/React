@@ -4,7 +4,7 @@ function Hooks() {
 
    const [number, setNumber] = useState("one");
    const [option, setOption] = useState("yes");
-   const [counter, setCounter] = useState(0);
+   const [word, setWord] = useState("abc");
 
   return (
     <>
@@ -50,6 +50,7 @@ function Hooks() {
         onClick={() => setNumber("ten")}
       >Ten</button>
       <h3>The number is: {number}</h3>
+
       <h3>Choose option:</h3>
       <button
         type="button"
@@ -60,6 +61,21 @@ function Hooks() {
         onClick={() => setOption("no")}
       >No</button>
       <h3>The option is: {option}</h3>
+
+      <h3>Choose word:</h3>
+      <button
+        type="button"
+        onClick={() => setWord("abc")}
+      >abc</button>
+      <button
+        type="button"
+        onClick={() => setWord("bca")}
+      >bca</button>
+      <button
+        type="button"
+        onClick={() => setWord("cab")}
+      >cab</button>
+      <h3>The word is: {word}</h3>
     </>
   );
 }
