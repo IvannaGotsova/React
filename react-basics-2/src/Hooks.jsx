@@ -47,6 +47,7 @@ function Hooks() {
         type="button"
         onClick={() => setNumber("ten")}
       >Ten</button>
+      <h3>The number is: {number}</h3>
       <h3>Choose option:</h3>
       <button
         type="button"
