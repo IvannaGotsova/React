@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function Hooks() {
 
-   const [number, setNumber] = useState("one");
-   const [option, setOption] = useState("yes");
-   const [word, setWord] = useState("abc");
+   const [number, setNumber] = useState("");
+   const [option, setOption] = useState("");
+   const [word, setWord] = useState("");
 
   return (
     <>
