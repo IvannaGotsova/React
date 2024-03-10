@@ -58,6 +58,7 @@ function Hooks() {
         type="button"
         onClick={() => setOption("no")}
       >No</button>
+      <h3>The option is: {option}</h3>
     </>
   );
 }
