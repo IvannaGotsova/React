@@ -5,8 +5,7 @@ function Body() {
 
     return (
         <>
-          <Header />
-          <Footer />
+         
         </>
     )
 }
