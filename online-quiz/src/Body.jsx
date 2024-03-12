@@ -4,7 +4,10 @@ import Header from "./Header"
 function Body() {
 
     return (
-        <Header />
+        <>
+          <Header />
+          <Footer />
+        </>
     )
 }
 
