@@ -14,7 +14,7 @@ function Body() {
     const [numberTen, setNumberTen] = useState("");
     let answeredQuestions = 0;
     let countedPoints = 0;
-    let sentence = `You have answered ${answeredQuestions} question and have ${countedPoints}!`;
+    let sentence = `You have answered ${answeredQuestions} questions and have ${countedPoints}!`;
  
    return (
      <>
