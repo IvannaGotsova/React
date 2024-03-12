@@ -19,14 +19,14 @@ function Body() {
        <h3>1. Question numeber one!:</h3>
        <button
          type="button"
-         onClick={() => setNumberOne("one")}
+         onClick={() => setNumberOne("one")} 
        >One</button>
        <button
          type="button"
-         onClick={() => setNumberOne("two")}
+         onClick={() => setNumberOne("two")} 
        >Two</button>
        <button
-         type="button"
+         type="button" 
          onClick={() => setNumberOne("three")}
        >Three</button>
        <button
