@@ -1,4 +1,3 @@
-import Header from "./Header"
 
 
 function Body() {
@@ -240,7 +239,7 @@ function Body() {
        <br />
        <h2>{sentence}</h2>
      </>
-   );
+   )
  }
 
 export default Body
