@@ -12,6 +12,8 @@ function Body() {
     const [numberEight, setNumberEight] = useState("");
     const [numberNine, setNumberNine] = useState("");
     const [numberTen, setNumberTen] = useState("");
+    let answeredQuestions = 0;
+    let countedPoints = 0;
     let sentence = ``;
  
    return (
