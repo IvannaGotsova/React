@@ -16,7 +16,28 @@ function Body() {
  
    return (
      <>
-      
+       <h3>1. Question numeber one!:</h3>
+       <button
+         type="button"
+         onClick={() => setNumberOne("one")}
+       >One</button>
+       <button
+         type="button"
+         onClick={() => setNumberOne("two")}
+       >Two</button>
+       <button
+         type="button"
+         onClick={() => setNumberOne("three")}
+       >Three</button>
+       <button
+         type="button"
+         onClick={() => setNumberOne("four")}
+       >Four</button>
+       <button
+         type="button"
+         onClick={() => setNumberOne("five")}
+       >Five</button>  
+       <br />
      </>
    );
  }
