@@ -240,7 +240,6 @@ function Body() {
          onClick={() => setNumberTen("five")}
        >Five</button>  
        <br />
-      
        <h2>{sentence}</h2>
        
      </>
