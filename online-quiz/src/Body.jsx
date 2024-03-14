@@ -15,10 +15,12 @@ function Body() {
     let answeredQuestions = 0;
     let earnedPoints = 0;
     let sentence = `You have answered ${answeredQuestions} questions and you have earned ${earnedPoints} points!`;
- 
+
+
+    
    return (
      <>
-       <h3>1. Question numeber one!:</h3>
+       <h3>1. Question number one!:</h3>
        <button
          type="button"
          onClick={() => setNumberOne("one")} 
@@ -40,7 +42,7 @@ function Body() {
          onClick={() => setNumberOne("five")}
        >Five</button>  
        <br />
-       <h3>2. Question numeber two!:</h3>
+       <h3>2. Question number two!:</h3>
        <button
          type="button"
          onClick={() => setNumberTwo("one")} 
@@ -62,7 +64,7 @@ function Body() {
          onClick={() => setNumberTwo("five")}
        >Five</button>  
        <br />
-       <h3>3. Question numeber three!:</h3>
+       <h3>3. Question number three!:</h3>
        <button
          type="button"
          onClick={() => setNumberThree("one")} 
@@ -238,7 +240,9 @@ function Body() {
          onClick={() => setNumberTen("five")}
        >Five</button>  
        <br />
+      
        <h2>{sentence}</h2>
+       
      </>
    )
  }
