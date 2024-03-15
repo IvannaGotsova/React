@@ -5,10 +5,11 @@ import No from "./No"
 function App() {
 
   const valueExample = false; 
+  const valueExampleTwo = true; 
 
-    if (valueExample) {
+    if (valueExample == false && valueExampleTwo == true) {
       return <Yes />
-    } else {
+    } else if (valueExample == false || valueExampleTwo == false) {
       return <No />
     } 
 }
