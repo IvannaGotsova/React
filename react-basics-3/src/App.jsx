@@ -1,6 +1,6 @@
 import Yes from "./Yes"
 import No from "./No"
-
+import List from "./List";
 
 function App() {
 
@@ -8,10 +8,22 @@ function App() {
   const valueExampleTwo = true; 
 
     if (valueExample == false && valueExampleTwo == true) {
-      return <Yes />
+      return (
+        <>
+            <Yes />
+            <List />
+        </>
+      );
     } else if (valueExample == false || valueExampleTwo == false) {
-      return <No />
+      return (
+        <>
+            <No />
+            <List />
+        </>
+      );
     } 
+
+
 }
 
 
