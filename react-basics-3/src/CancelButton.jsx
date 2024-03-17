@@ -2,8 +2,10 @@
 
 function CancelButton() {
 
+    const handleClick = (e) => e.target.textContent = "You clicked Cancel Button one time.";
+    
     return (
-        <><button>Click Cancel Button!</button></>
+        <><button onClick = {(e) => handleClick(e)} >Click Cancel Button!</button></>
     );
 }
 
