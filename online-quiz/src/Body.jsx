@@ -14,10 +14,7 @@ function Body() {
     const [numberTen, setNumberTen] = useState("");
     let answeredQuestions = 0;
     let earnedPoints = 0;
-    let sentence = `You have answered ${answeredQuestions} questions and you have earned ${earnedPoints} points!`;
 
-
-    
    return (
      <>
        <h3>1. Question number one!:</h3>
@@ -240,7 +237,7 @@ function Body() {
          onClick={() => setNumberTen("five")}
        >Five</button>  
        <br />
-       <h2>{sentence}</h2>
+       <h2>{`You have answered ${answeredQuestions} questions and you have earned ${earnedPoints} points!`}</h2>
        
      </>
    )
