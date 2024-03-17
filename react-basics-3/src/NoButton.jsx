@@ -2,8 +2,10 @@
 
 function NoButton() {
 
+    const handleClick = (e) => e.target.textContent = "You touch No Button.";
+
     return (
-        <><button>Click No Button!</button></>
+        <><button onPointerMove={(e) => handleClick(e)}>Click No Button!</button></>
     );
 }
 
