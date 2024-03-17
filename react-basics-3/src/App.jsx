@@ -1,6 +1,9 @@
 import Yes from "./Yes"
 import No from "./No"
 import List from "./List";
+import YesButton from "./YesButton";
+import NoButton from "./NoButton";
+import CancelButton from "./CancelButton";
 
 function App() {
 
@@ -12,6 +15,9 @@ function App() {
         <>
             <Yes />
             <List />
+            <YesButton />
+            <NoButton />
+            <CancelButton />
         </>
       );
     } else if (valueExample == false || valueExampleTwo == false) {
