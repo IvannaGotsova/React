@@ -3,7 +3,7 @@
 function YesButton() {
 
     return (
-        <></>
+        <><button>Click Yes Button!</button></>
     );
 }
 
