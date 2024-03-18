@@ -7,6 +7,10 @@ function UseStateExample() {
     return (
         <>
             <h1>My number is {number}!</h1>
+            <button
+                type="button"
+                onClick={() => setNumber(number + 1)}>Add 1
+            </button>
         </>
     )
 }
