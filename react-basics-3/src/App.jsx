@@ -4,6 +4,7 @@ import List from "./List";
 import YesButton from "./YesButton";
 import NoButton from "./NoButton";
 import CancelButton from "./CancelButton";
+import UseStateExample from "./UseStateExample.";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <YesButton />
             <NoButton />
             <CancelButton />
+            <UseStateExample />
         </>
       );
     } else if (valueExample == false || valueExampleTwo == false) {
