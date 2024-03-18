@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function UseStateExample() {
 
-    const [number, setNumber] = useState(1);
+    const [number, setNumber] = useState(0);
 
     return (
         <>
