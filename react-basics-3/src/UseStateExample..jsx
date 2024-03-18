@@ -11,6 +11,10 @@ function UseStateExample() {
                 type="button"
                 onClick={() => setNumber(number + 1)}>Add 1
             </button>
+            <button
+                type="button"
+                onClick={() => setNumber(number - 1)}>Substract 1
+            </button>
         </>
     )
 }
