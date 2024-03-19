@@ -12,8 +12,8 @@ function Body() {
     const [numberEight, setNumberEight] = useState("");
     const [numberNine, setNumberNine] = useState("");
     const [numberTen, setNumberTen] = useState("");
-    let answeredQuestions = 0;
-    let earnedPoints = 0;
+    const [answeredQuestions, setAnsweredQuestions] = useState(0);
+    const [earnedPoints, setEarnedPoints] = useState(0);
     let sentence = `You have answered ${answeredQuestions} questions and you have earned ${earnedPoints} points!`;
 
     
