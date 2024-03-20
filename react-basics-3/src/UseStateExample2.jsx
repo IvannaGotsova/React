@@ -5,9 +5,16 @@ function UseStateExample2 () {
 
     const [word, setWord] = useState("First Word");
 
+    const updateWord = () => {
+        setWord("Second Word");
+    };
+
     return (
 
-        <></>
+        <>
+            <button onClick={updateWord}>Change Word</button>
+            <p>The word is: {word}</p>
+        </>
     );
 } 
 
