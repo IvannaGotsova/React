@@ -5,7 +5,7 @@ import YesButton from "./YesButton";
 import NoButton from "./NoButton";
 import CancelButton from "./CancelButton";
 import UseStateExample from "./UseStateExample";
-import UseStateExample from "./UseStateExample2";
+import UseStateExample2 from "./UseStateExample2";
 import OnChangeHandler from "./OnChangeHandler";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
             <CancelButton />
             <UseStateExample />
             <OnChangeHandler />
-            <UseStateExample />
+            <UseStateExample2 />
         </>
       );
     } else if (valueExample == false || valueExampleTwo == false) {
