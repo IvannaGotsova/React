@@ -14,6 +14,10 @@ function UseStateExample2 () {
         <>
             <button onClick={updateWord}>Change Word</button>
             <p>The word is: {word}</p>
+            <button onClick={updateWord}>Change Word</button>
+            <p>The word is: {word}</p>
+            <button onClick={updateWord}>Change Word</button>
+            <p>The word is: {word}</p>
         </>
     );
 } 
