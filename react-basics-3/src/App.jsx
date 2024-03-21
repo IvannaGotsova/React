@@ -7,6 +7,7 @@ import CancelButton from "./CancelButton";
 import UseStateExample from "./UseStateExample";
 import UseStateExample2 from "./UseStateExample2";
 import OnChangeHandler from "./OnChangeHandler";
+import UpdateArray from "./UpdateArray";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
             <UseStateExample />
             <OnChangeHandler />
             <UseStateExample2 />
+            <UpdateArray />
         </>
       );
     } else if (valueExample == false || valueExampleTwo == false) {
