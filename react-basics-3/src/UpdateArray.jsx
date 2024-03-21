@@ -15,6 +15,10 @@ function UpdateArray() {
         ]);
     };
 
+    const resetNumbers = () => {
+        setNumbers([]);
+    };
+
     return (
         <>
             <ul>
@@ -24,6 +28,9 @@ function UpdateArray() {
             </ul>
             <button onClick={addNumber}>
                 Add Number
+            </button>
+            <button onClick={resetNumbers}>
+                Reset Numbers
             </button>
         </>
     );
