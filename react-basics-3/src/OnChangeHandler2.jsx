@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function OnChangeHandler2 () {
 
-    const [number, setNumber] = useState();
+    const [number, setNumber] = useState(0);
 
     function handleNumberChange(event) {
         setNumber(event.target.value);
