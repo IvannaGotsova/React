@@ -8,6 +8,7 @@ import UseStateExample from "./UseStateExample";
 import UseStateExample2 from "./UseStateExample2";
 import OnChangeHandler from "./OnChangeHandler";
 import OnChangeHandler2 from "./OnChangeHandler2";
+import OnChangeHandler3 from "./OnChangeHandler3";
 import UpdateArray from "./UpdateArray";
 import UpdateObject from "./UpdateObject";
 
@@ -30,6 +31,7 @@ function App() {
             <UpdateArray />
             <UpdateObject />
             <OnChangeHandler2 />
+            <OnChangeHandler3 />
         </>
       );
     } else if (valueExample == false || valueExampleTwo == false) {
