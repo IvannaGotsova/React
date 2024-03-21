@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function OnChangeHandler3 () {
 
-    const [word, setWord] = useState("");
+    const [word, setWord] = useState("null");
 
     function handleWordChange(event) {
         setWord(event.target.value);
