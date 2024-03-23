@@ -76,6 +76,9 @@ function ToDoBody() {
                     Date: {task.date} <br />
                     Description: {task.description} <br />
                     Status: {task.status} <br />
+                    <button onClick={() => moveTaskToTheTop(index)}>Move to Top</button>
+                    <button onClick={() => moveTaskToTheBottom(index)}>Move to Bottom</button>
+                    <br />
                     <button onClick={() => handleRemoveTask(index)}>Remove This Task</button>
                     <hr />
                 </li>)}
