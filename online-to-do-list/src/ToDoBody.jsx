@@ -14,6 +14,13 @@ function ToDoBody() {
         const newTask = {number: taskNumber, title: taskTitle, date: taskDate, description: taskDescription, status: taskStatus};
 
         setTasks (t => [...t, newTask]);
+
+        setTaskNumber(0);
+        setTaskTitle("");
+        setTaskDate(new Date().getDate());
+        setTaskDescription("");
+        setTaskStatus("");
+
     }
 
     function handleRemoveTask (index) {
