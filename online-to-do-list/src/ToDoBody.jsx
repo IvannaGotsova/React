@@ -11,15 +11,20 @@ function ToDoBody() {
     const [taskStatus, setTaskStatus ] = useState("");
 
     function handleAddTask () {
-        const newTask = {number: taskNumber, title: taskTitle, date: taskDate, description: taskDescription, status: taskStatus};
+        
+        if (taskTitle.trim() !== "" &&
+            taskDescription.trim() !== "" &&
+            taskTitle.trim() !== "") {
+            const newTask = {number: taskNumber, title: taskTitle, date: taskDate, description: taskDescription, status: taskStatus};
 
-        setTasks (t => [...t, newTask]);
+            setTasks (t => [...t, newTask]);
 
-        setTaskNumber(0);
-        setTaskTitle("");
-        setTaskDate(new Date().getDate());
-        setTaskDescription("");
-        setTaskStatus("");
+            setTaskNumber(0);
+            setTaskTitle("");
+            setTaskDate(new Date().getDate());
+            setTaskDescription("");
+            setTaskStatus("");
+        }
 
     }
 
