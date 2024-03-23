@@ -57,7 +57,8 @@ function ToDoBody() {
                     Title: {task.title} <br />
                     Date: {task.date} <br />
                     Description: {task.description} <br />
-                    Status: {task.status}
+                    Status: {task.status} <br />
+                    <button onClick={handleRemoveTask}>Remove This Task</button>
                     <hr />
                 </li>)}
         </ol>
