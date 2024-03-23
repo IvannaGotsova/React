@@ -57,7 +57,7 @@ function ToDoBody() {
         <input type="text" value={taskStatus} placeholder="Your Task Status" onChange={handleTaskStatusChange} /> <br />
         <button onClick={handleAddTask}>Add New Task</button>
         
-        <ol>
+        <ul>
             {tasks.map((task, index) => 
                 <li key={index}>
                     Number: {task.number} <br />
@@ -68,7 +68,7 @@ function ToDoBody() {
                     <button onClick={() => handleRemoveTask(index)}>Remove This Task</button>
                     <hr />
                 </li>)}
-        </ol>
+        </ul>
         
         <p>The number of your tasks is: {tasks.length}</p>
         </>
