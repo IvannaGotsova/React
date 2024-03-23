@@ -52,6 +52,12 @@ function ToDoBody() {
         setTaskStatus(event.target.value);
     }
 
+    function moveTaskToTheTop (index) {
+    }
+
+    function moveTaskToTheBottom (index) {
+    }
+
     return (
         <>
          <h2>My Tasks</h2>
