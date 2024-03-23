@@ -24,7 +24,7 @@ function ToDoBody() {
     }
 
     function handleRemoveTask (index) {
-        
+        setTasks(t => t.filter((_, taskIndex) => taskIndex !== index));
     }
 
     function handleTaskNumberChange (event) {
@@ -65,7 +65,7 @@ function ToDoBody() {
                     Date: {task.date} <br />
                     Description: {task.description} <br />
                     Status: {task.status} <br />
-                    <button onClick={handleRemoveTask}>Remove This Task</button>
+                    <button onClick={() => handleRemoveTask(index)}>Remove This Task</button>
                     <hr />
                 </li>)}
         </ol>
