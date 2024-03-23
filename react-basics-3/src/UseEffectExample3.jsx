@@ -12,7 +12,7 @@ function UseEffectExample3 () {
 
     return (
         <>
-            <button onClick={() => setNumber((n) => n + 10)}>
+            <button onClick={() => setNumber((n) => n + 1)}>
                 Click </button>
             <p>You clicked {number}</p>
             <p>Add {add}</p>
