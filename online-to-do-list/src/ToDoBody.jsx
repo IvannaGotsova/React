@@ -64,6 +64,14 @@ function ToDoBody() {
     }
 
     function moveTaskToTheBottom (index) {
+        
+        if (index < tasks.length - 1) {
+            const downTasks = [...tasks];
+            [downTasks[index], downTasks[index + 1]] =
+            [downTasks[index + 1], downTasks[index]]
+            setTasks(downTasks);
+        }
+
     }
 
     return (
