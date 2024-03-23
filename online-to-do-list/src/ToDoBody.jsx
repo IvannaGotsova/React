@@ -43,14 +43,15 @@ function ToDoBody() {
     return (
         <>
         <h2>My Tasks</h2>
-        <ol>
-
-        </ol>
         <input type="number" value={taskNumber} placeholder="" onChange={handleTaskNumberChange} /> <br />
         <input type="text" value={taskTitle} placeholder="Your Task Title" onChange={handleTaskTitleChange} /> <br />
         <input type="date" value={taskDate} placeholder="" onChange={handleTaskDateChange} /> <br />
         <input type="text" value={taskDescription} placeholder="Your Task Description" onChange={handleTaskDescriptionChange} /> <br />
         <input type="text" value={taskStatus} placeholder="Your Task Status" onChange={handleTaskStatusChange} /> <br />
+        <button onClick={handleAddTask}>Add New Task</button>
+        <ol>
+
+        </ol>
         <p>The number of your tasks is: {tasks.length}</p>
         </>
     )
