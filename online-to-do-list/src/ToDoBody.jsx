@@ -11,7 +11,9 @@ function ToDoBody() {
     const [taskStatus, setTaskStatus ] = useState("");
 
     function handleAddTask () {
+        const newTask = {number: taskNumber, title: taskTitle, date: taskDate, description: taskDescription, status: taskStatus};
 
+        setTasks (t => [...t, newTask]);
     }
 
     function handleRemoveTask (index) {
