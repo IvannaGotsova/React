@@ -11,6 +11,7 @@ import OnChangeHandler2 from "./OnChangeHandler2";
 import OnChangeHandler3 from "./OnChangeHandler3";
 import UseEffectExample from "./UseEffectExample";
 import UseEffectExample2 from "./UseEffectExample2";
+import UseEffectExample3 from "./UseEffectExample3";
 import UpdateArray from "./UpdateArray";
 import UpdateObject from "./UpdateObject";
 
@@ -36,6 +37,7 @@ function App() {
             <OnChangeHandler3 />
             <UseEffectExample />
             <UseEffectExample2 />
+            <UseEffectExample3 />
         </>
       );
     } else if (valueExample == false || valueExampleTwo == false) {
