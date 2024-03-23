@@ -10,6 +10,33 @@ function ToDoBody() {
     const [taskDescription, setTaskDescription ] = useState("");
     const [taskStatus, setTaskStatus ] = useState("");
 
+    function handleAddTask () {
+
+    }
+
+    function handleRemoveTask (index) {
+        
+    }
+
+    function handleTaskNumberChange (event) {
+        
+    }
+
+    function handleTaskTitleChange (event) {
+        
+    }
+
+    function handleTaskDateChange (event) {
+        
+    }
+
+    function handleTaskDescriptionChange (event) {
+        
+    }
+
+    function handleTaskStatusChange (event) {
+        
+    }
 
     return (
         <>
