@@ -19,30 +19,30 @@ function ToDoBody() {
     }
 
     function handleTaskNumberChange (event) {
-        
+        setTaskNumber(event.target.value);
     }
 
     function handleTaskTitleChange (event) {
-        
+        setTaskTitle(event.target.value);
     }
 
     function handleTaskDateChange (event) {
-        
+        setTaskDate(event.target.value);
     }
 
     function handleTaskDescriptionChange (event) {
-        
+        setTaskDescription(event.target.value);
     }
 
     function handleTaskStatusChange (event) {
-        
+        setTaskStatus(event.target.value);
     }
 
     return (
         <>
         <h2>My Tasks</h2>
         <ol>
-            
+
         </ol>
         <input type="number" value={taskNumber} placeholder="" onChange={handleTaskNumberChange} /> <br />
         <input type="text" value={taskTitle} placeholder="Your Task Title" onChange={handleTaskTitleChange} /> <br />
