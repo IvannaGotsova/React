@@ -53,7 +53,12 @@ function ToDoBody() {
         <ol>
             {tasks.map((task, index) => 
                 <li key={index}>
-                    {task.number} {task.title} {task.date} {task.description} {task.status}
+                    Number: {task.number} <br />
+                    Title: {task.title} <br />
+                    Date: {task.date} <br />
+                    Description: {task.description} <br />
+                    Status: {task.status}
+                    <hr />
                 </li>)}
         </ol>
         
