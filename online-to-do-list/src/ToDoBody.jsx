@@ -41,6 +41,9 @@ function ToDoBody() {
     return (
         <>
         <h2>My Tasks</h2>
+        <ol>
+            
+        </ol>
         <input type="number" value={taskNumber} placeholder="" onChange={handleTaskNumberChange} /> <br />
         <input type="text" value={taskTitle} placeholder="Your Task Title" onChange={handleTaskTitleChange} /> <br />
         <input type="date" value={taskDate} placeholder="" onChange={handleTaskDateChange} /> <br />
