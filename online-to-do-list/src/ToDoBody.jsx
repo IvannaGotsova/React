@@ -12,7 +12,8 @@ function ToDoBody() {
 
     function handleAddTask () {
         
-        if (taskTitle.trim() !== "" &&
+        if (taskNumber !== 0 &&
+            taskTitle.trim() !== "" &&
             taskDescription.trim() !== "" &&
             taskTitle.trim() !== "") {
             const newTask = {number: taskNumber, title: taskTitle, date: taskDate, description: taskDescription, status: taskStatus};
