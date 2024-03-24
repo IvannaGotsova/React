@@ -1,10 +1,19 @@
+import { useState, useEffect, useRef } from "react";
 
+function UseRefExample () {
 
-function UseEffectExample3 () {
+   const numberRef = useRef(10);
+
+   const handleClick = () => {
+    numberRef.current.focus();;
+   };
 
     return (
-        <div></div>
+        <>
+        <button onClick={handleClick}>Click</button>
+        <h1>Clicks Count: {numberRef.current}</h1>
+        </>
     );
 }
 
-export default UseEffectExample3
+export default UseRefExample
