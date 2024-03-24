@@ -9,7 +9,7 @@ function Second() {
           <p>This is Second</p>
           <Third />
         </div>
-      );
+      )
   }
   
 export default Second
