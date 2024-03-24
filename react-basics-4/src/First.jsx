@@ -1,13 +1,20 @@
-import { useState } from "react"
+import { useState, createContext } from "react";
 import Second from "./Second"
 
+export const WordContext = createContext();
 
 function First() {
-  
+
+    const [word, setWord] = useState("This is through useContext()");
+
     return (
-      <div className="example">
+      
+        <div className="example">
         <p>This is First</p>
-        <Second />
+        <p>{`${word}`}</p>
+        <WordContext.Provider value={word}>
+            <Second word={word}/>
+        </WordContext.Provider>
       </div>
     );
   }
