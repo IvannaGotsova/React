@@ -11,7 +11,7 @@ function UseEffectHook () {
     
 
     return (
-       <div>
+       <div>  
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>+</button>
             <p>New Count: {newCount}</p>
