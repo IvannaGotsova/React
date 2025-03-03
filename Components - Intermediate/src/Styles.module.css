@@ -1,0 +1,29 @@
+.h1 {
+    background-color: aqua;
+    color: blue;
+}
+
+.h2 {
+    background-color: greenyellow;
+    color: green;
+}
+
+.h3 {
+    background-color: red;
+    color: yellow;
+}
+
+.h4 {
+    background-color: lightcoral;
+    color: darkkhaki;
+}
+
+.h5 {
+    background-color: lightsalmon;
+    color: darkcyan;
+}
+
+.h6 {
+    background-color: lightcyan;
+    color: gray;
+}
