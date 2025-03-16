@@ -1,33 +1,60 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route, Link } from 'react-router-dom';
+  
 import './App.css'
+import FirstRouteLink from './FirstRouteLink';
+import SecondRouteLink from './SecondRouteLink';
+import ThirdRouteLink from './ThirdRouteLink';
+import FourthRouteLink from './FourthRouteLink';
+import FifthRouteLink from './FifthRouteLink';
+import FirstRouteButton from './FirstRouteButton';
+import SecondRouteButton from './SecondRouteButton';
+import ThirdRouteButton from './ThirdRouteButton';
+import Default from './Default';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <Link to='/firstroutelink'> First Route Link </ Link>
+        <br />
+        <Link to='/secondroutelink'> Second Rute Link </ Link>
+        <br />
+        <Link to='/thirdroutelink'> Third Route Link </ Link>
+        <br />
+        <Link to='/fourthroutelink'> Fourth Route Link </ Link>
+        <br />
+        <Link to='/fifthroutelink'> Fifth Route Link </ Link>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <br />
+      <div>
+        <Link to="/firstroutebutton"><button type="button">First</button></Link>
+        <br />
+        <Link to="/secondroutebutton"><button type="button">Second</button></Link>
+        <br />
+        <Link to="/thirdroutebutton"><button type="button">Third</button></Link>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div>
+        
+      </div>
+
+      <Routes>
+        <Route path='/firstroutelink' element={<FirstRouteLink/>}/>
+        <Route path='/secondroutelink' element={<SecondRouteLink/>}/>
+        <Route path='/thirdroutelink' element={<ThirdRouteLink/>}/>
+        <Route path='/fourthroutelink' element={<FourthRouteLink/>}/>
+        <Route path='/fifthroutelink' element={<FifthRouteLink/>}/>
+      </Routes>
+      <Routes>
+        <Route path='/firstroutebutton' element={<FirstRouteButton/>}/>
+        <Route path='/secondroutebutton' element={<SecondRouteButton/>}/>
+        <Route path='/thirdroutebutton' element={<ThirdRouteButton/>}/>
+      </Routes>
+      <Routes>
+        <Route path="*" element={<Default />} />
+      </Routes>
     </>
   )
 }
