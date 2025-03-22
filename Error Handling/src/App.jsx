@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter'
 import CounterStandardErrorHandling from './CounterStandardErrorHandling'
+import CounterTryCatchErrorHandling from './CounterTryCatchErrorHandling'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,8 @@ function App() {
       <Counter/>
       <p>Counter Standard Error Handling</p>
       <CounterStandardErrorHandling/>
+      <p>Counter Try Catch Error Handling</p>
+      <CounterTryCatchErrorHandling/>
     </>
   )
 }
