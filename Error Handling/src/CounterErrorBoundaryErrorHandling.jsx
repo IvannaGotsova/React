@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react';
+import { ErrorBoundary } from "react-error-boundary";
 
-function CounterTryCatchErrorHandling () {
+function CounterErrorBoundaryErrorHandling () {
 
     const [count, setCount] = useState(0); 
     const [newCount, setNewCount] = useState(count);
 
     useEffect(() => {
-        try {
-            //count = count * 0 
-            if (count % 2 === 0) {
-                setNewCount(() => count * 100);
-            }
-        } catch (error) {
-            throw console.log(error);            
-        } 
+        if (count === 10) {
+            throw new Error("Counter Error Boundary Error Handling");
+            
+        }
+        if (count % 2 === 0) {
+            setNewCount(() => count * 100);
+        }
       }, [count]); 
     
 
@@ -26,4 +26,4 @@ function CounterTryCatchErrorHandling () {
     )
 }
 
-export default CounterTryCatchErrorHandling
+export default CounterErrorBoundaryErrorHandling
