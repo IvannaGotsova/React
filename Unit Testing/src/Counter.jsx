@@ -16,7 +16,7 @@ function Counter () {
        <div>  
             <p>New Count: {newCount}</p>
             <button onClick={() => setCount(count + 1)}>+</button>
-            <p>OldCount: {count}</p>
+            <p>Old Count: {count}</p>
        </div>
     )
 }
