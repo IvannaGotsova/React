@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import StyleOne from './StyleOne'
+import StyleTwo from './StyleTwo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,8 @@ function App() {
         <h6 style={{ border: "1px solid black" }}>Hello</h6>
         <br />
         <StyleOne />
+        <br />
+        <StyleTwo />
     </>
   )
 }

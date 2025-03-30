@@ -1,0 +1,24 @@
+       h1  {
+        color: blue;
+        background-color: lightblue;
+      }
+       h2  {
+        color: red;
+        background-color: lightsalmon;
+      }
+       h3 {
+        color: green;
+        background-color: lightgreen;
+      } 
+       h4  {
+        color: grey;
+        background-color: lightgrey;
+      }    
+       h5  {
+        color: Magenta;
+        background-color: lightpink;
+      }   
+       h6  {
+        color: orange;
+        background-color: moccasin;
+      }    
