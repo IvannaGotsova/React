@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import StyleOne from './StyleOne'
 import StyleTwo from './StyleTwo'
+import StyleThree from './StyleThree'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,8 @@ function App() {
         <StyleOne />
         <br />
         <StyleTwo />
+        <br />
+        <StyleThree />
     </>
   )
 }
